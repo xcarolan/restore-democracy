@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://restore-democracy.org/'
 languageCode = 'en-us'
-title = 'American Democracy'
+title = 'Restore Democracy'
 theme = 'hugo-news'

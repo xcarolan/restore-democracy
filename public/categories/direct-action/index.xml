@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Direct Action on American Democracy</title>
+    <title>Direct Action on Restore Democracy</title>
     <link>http://localhost:1313/categories/direct-action/</link>
-    <description>Recent content in Direct Action on American Democracy</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Direct Action on Restore Democracy</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Jan 2024 16:00:00 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/direct-action/index.xml" rel="self" type="application/rss+xml" />

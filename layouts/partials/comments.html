@@ -1,0 +1,26 @@
+<section id="remark42" class="mt-12 border-t pt-8">
+    <h2 class="text-2xl font-bold mb-6">Comments</h2>
+    <div id="remark42"></div>
+</section>
+
+<script>
+  var remark_config = {
+    host: 'https://democracy.audrahub.com',
+    site_id: 'Democracy',
+    components: ['embed'],
+    url: '{{ .Permalink }}',
+    theme: 'light',
+    locale: 'en',
+    show_email_subscription: false,
+    simple_view: false,
+  };
+
+  (function(c) {
+    for(var i = 0; i < c.length; i++){
+      var d = document, s = d.createElement('script');
+      s.src = remark_config.host + '/web/' +c[i] +'.js';
+      s.defer = true;
+      (d.head || d.body).appendChild(s);
+    }
+  })(remark_config.components || ['embed']);
+</script>
