@@ -3,7 +3,7 @@ title: "At the Ballot: Stand for Democracy"
 date: 2025-10-09T16:00:00-05:00
 type: "articles"
 draft: true
-author: "Sylvester"
+author: "Luna Rainbow"
 categories: ["Freedom Alert", "Direct Action"]
 tags: ["voting", "freedom", "democracy", "elections"]
 featured_image: "democracy-preview.jpeg"
