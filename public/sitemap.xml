@@ -1,67 +1,298 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+&lt;?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
   <url>
-    <loc>https://restore-democracy.org/articles/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/categories/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/tags/climate-crisis/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/categories/climate-justice/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/categories/constitutional-rights/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/tags/decolonial-struggle/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/categories/deep-state/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/categories/direct-action/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/articles/climate-justice-now/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/articles/globalist-agenda-exposed/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/tags/financial-freedom/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/categories/freedom-alert/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/tags/globalist-agenda/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/categories/indigenous-rights/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/tags/resistance/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/tags/sovereignty/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/tags/</loc>
-    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-  </url><url>
-    <loc>https://restore-democracy.org/authors/</loc>
-  </url><url>
-    <loc>https://restore-democracy.org/authors/buck-patriot/</loc>
-  </url><url>
-    <loc>https://restore-democracy.org/authors/luna-rainbow/</loc>
-  </url><url>
-    <loc>https://restore-democracy.org/search/</loc>
+    <loc>http://localhost:1313/articles/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
   </url>
-</urlset>
+  
+  <url>
+    <loc>http://localhost:1313/articles/vote-for-democracy/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    <image:image>
+      <image:loc>http://localhost:1313/democracy-preview.jpeg</image:loc>
+    </image:image>
+    
+    
+    <news:news>
+      <news:publication>
+        <news:name>Restore Democracy</news:name>
+        <news:language>en-us</news:language>
+      </news:publication>
+      <news:publication_date>2025-10-09T16:00:00-05:00</news:publication_date>
+      <news:title>At the Ballot: Stand for Democracy</news:title>
+    </news:news>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/democracy/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/direct-action/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/elections/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/freedom/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/freedom-alert/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/voting/</loc>
+    
+    <lastmod>2025-10-09T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/climate-crisis/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/climate-justice/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/constitutional-rights/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/decolonial-struggle/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/deep-state/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/articles/climate-justice-now/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    <image:image>
+      <image:loc>http://localhost:1313/ice.png</image:loc>
+    </image:image>
+    
+    
+    <news:news>
+      <news:publication>
+        <news:name>Restore Democracy</news:name>
+        <news:language>en-us</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-11T16:00:00-05:00</news:publication_date>
+      <news:title>Direct Action Halts Fossil Fuel Pipeline as Indigenous Leaders Demand Climate Justice</news:title>
+    </news:news>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/articles/globalist-agenda-exposed/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    <image:image>
+      <image:loc>http://localhost:1313/surveillance.png</image:loc>
+    </image:image>
+    
+    
+    <news:news>
+      <news:publication>
+        <news:name>Restore Democracy</news:name>
+        <news:language>en-us</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-11T16:00:00-05:00</news:publication_date>
+      <news:title>EXPOSED: Global Elites Push Digital Currency to Control American Freedom</news:title>
+    </news:news>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/financial-freedom/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/globalist-agenda/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/indigenous-rights/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/resistance/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/sovereignty/</loc>
+    
+    <lastmod>2024-01-11T16:00:00-05:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/authors/</loc>
+    
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/authors/buck-patriot/</loc>
+    
+    
+    <image:image>
+      <image:loc>http://localhost:1313/buck.png</image:loc>
+    </image:image>
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/authors/luna-rainbow/</loc>
+    
+    
+    <image:image>
+      <image:loc>http://localhost:1313/luna.png</image:loc>
+    </image:image>
+    
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/search/</loc>
+    
+    
+    
+    <news:news>
+      <news:publication>
+        <news:name>Restore Democracy</news:name>
+        <news:language>en-us</news:language>
+      </news:publication>
+      <news:publication_date>0001-01-01T00:00:00&#43;00:00</news:publication_date>
+      <news:title>Search</news:title>
+    </news:news>
+    
+  </url>
+  
+</urlset> 
