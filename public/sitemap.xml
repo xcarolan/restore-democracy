@@ -1,240 +1,67 @@
-&lt;?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://restore-democracy.org/articles/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/categories/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/tags/climate-crisis/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/categories/climate-justice/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/categories/constitutional-rights/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/tags/decolonial-struggle/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/categories/deep-state/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/categories/direct-action/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/articles/climate-justice-now/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    <image:image>
-      <image:loc>https://restore-democracy.org/ice.png</image:loc>
-    </image:image>
-    
-    
-    <news:news>
-      <news:publication>
-        <news:name>Restore Democracy</news:name>
-        <news:language>en-us</news:language>
-      </news:publication>
-      <news:publication_date>2024-01-11T16:00:00-05:00</news:publication_date>
-      <news:title>Direct Action Halts Fossil Fuel Pipeline as Indigenous Leaders Demand Climate Justice</news:title>
-    </news:news>
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/articles/globalist-agenda-exposed/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    <image:image>
-      <image:loc>https://restore-democracy.org/surveillance.png</image:loc>
-    </image:image>
-    
-    
-    <news:news>
-      <news:publication>
-        <news:name>Restore Democracy</news:name>
-        <news:language>en-us</news:language>
-      </news:publication>
-      <news:publication_date>2024-01-11T16:00:00-05:00</news:publication_date>
-      <news:title>EXPOSED: Global Elites Push Digital Currency to Control American Freedom</news:title>
-    </news:news>
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/tags/financial-freedom/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/categories/freedom-alert/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/tags/globalist-agenda/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/categories/indigenous-rights/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/tags/resistance/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/tags/sovereignty/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/tags/</loc>
-    
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/</loc>
-    
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/authors/</loc>
-    
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/authors/buck-patriot/</loc>
-    
-    
-    <image:image>
-      <image:loc>https://restore-democracy.org/buck.png</image:loc>
-    </image:image>
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/authors/luna-rainbow/</loc>
-    
-    
-    <image:image>
-      <image:loc>https://restore-democracy.org/luna.png</image:loc>
-    </image:image>
-    
-    
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://restore-democracy.org/search/</loc>
-    
-    
-    
-    <news:news>
-      <news:publication>
-        <news:name>Restore Democracy</news:name>
-        <news:language>en-us</news:language>
-      </news:publication>
-      <news:publication_date>0001-01-01T00:00:00&#43;00:00</news:publication_date>
-      <news:title>Search</news:title>
-    </news:news>
-    
   </url>
-  
-</urlset> 
+</urlset>
