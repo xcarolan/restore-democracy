@@ -5,7 +5,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
   <url>
-    <loc>http://localhost:1313/articles/</loc>
+    <loc>http://localhost:33557/articles/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -14,13 +14,13 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/articles/vote-for-democracy/</loc>
+    <loc>http://localhost:33557/articles/vote-for-democracy/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
     
     <image:image>
-      <image:loc>http://localhost:1313/democracy-preview.jpeg</image:loc>
+      <image:loc>http://localhost:33557/democracy-preview.jpeg</image:loc>
     </image:image>
     
     
@@ -36,7 +36,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:33557/categories/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -45,7 +45,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/democracy/</loc>
+    <loc>http://localhost:33557/tags/democracy/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -54,7 +54,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/direct-action/</loc>
+    <loc>http://localhost:33557/categories/direct-action/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -63,7 +63,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/elections/</loc>
+    <loc>http://localhost:33557/tags/elections/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -72,7 +72,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/freedom/</loc>
+    <loc>http://localhost:33557/tags/freedom/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -81,7 +81,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/freedom-alert/</loc>
+    <loc>http://localhost:33557/categories/freedom-alert/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -90,7 +90,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:33557/tags/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -99,7 +99,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/voting/</loc>
+    <loc>http://localhost:33557/tags/voting/</loc>
     
     <lastmod>2025-10-09T16:00:00-05:00</lastmod>
     
@@ -108,7 +108,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/climate-crisis/</loc>
+    <loc>http://localhost:33557/tags/climate-crisis/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -117,7 +117,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/climate-justice/</loc>
+    <loc>http://localhost:33557/categories/climate-justice/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -126,7 +126,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/constitutional-rights/</loc>
+    <loc>http://localhost:33557/categories/constitutional-rights/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -135,7 +135,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/decolonial-struggle/</loc>
+    <loc>http://localhost:33557/tags/decolonial-struggle/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -144,7 +144,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/deep-state/</loc>
+    <loc>http://localhost:33557/categories/deep-state/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -153,13 +153,13 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/articles/climate-justice-now/</loc>
+    <loc>http://localhost:33557/articles/climate-justice-now/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
     
     <image:image>
-      <image:loc>http://localhost:1313/ice.png</image:loc>
+      <image:loc>http://localhost:33557/ice.png</image:loc>
     </image:image>
     
     
@@ -175,13 +175,13 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/articles/globalist-agenda-exposed/</loc>
+    <loc>http://localhost:33557/articles/globalist-agenda-exposed/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
     
     <image:image>
-      <image:loc>http://localhost:1313/surveillance.png</image:loc>
+      <image:loc>http://localhost:33557/surveillance.png</image:loc>
     </image:image>
     
     
@@ -197,7 +197,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/financial-freedom/</loc>
+    <loc>http://localhost:33557/tags/financial-freedom/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -206,7 +206,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/globalist-agenda/</loc>
+    <loc>http://localhost:33557/tags/globalist-agenda/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -215,7 +215,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/indigenous-rights/</loc>
+    <loc>http://localhost:33557/categories/indigenous-rights/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -224,7 +224,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/resistance/</loc>
+    <loc>http://localhost:33557/tags/resistance/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -233,7 +233,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/sovereignty/</loc>
+    <loc>http://localhost:33557/tags/sovereignty/</loc>
     
     <lastmod>2024-01-11T16:00:00-05:00</lastmod>
     
@@ -242,7 +242,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:33557/</loc>
     
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
     
@@ -251,43 +251,43 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/section/</loc>
+    <loc>http://localhost:33557/section/</loc>
     
     
     
   </url>
   
   <url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://localhost:33557/authors/</loc>
     
     
     
   </url>
   
   <url>
-    <loc>http://localhost:1313/authors/buck-patriot/</loc>
+    <loc>http://localhost:33557/authors/buck-patriot/</loc>
     
     
     <image:image>
-      <image:loc>http://localhost:1313/buck.png</image:loc>
+      <image:loc>http://localhost:33557/buck.png</image:loc>
     </image:image>
     
     
   </url>
   
   <url>
-    <loc>http://localhost:1313/authors/luna-rainbow/</loc>
+    <loc>http://localhost:33557/authors/luna-rainbow/</loc>
     
     
     <image:image>
-      <image:loc>http://localhost:1313/luna.png</image:loc>
+      <image:loc>http://localhost:33557/luna.png</image:loc>
     </image:image>
     
     
   </url>
   
   <url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>http://localhost:33557/search/</loc>
     
     
     

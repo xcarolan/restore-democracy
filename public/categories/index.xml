@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Restore Democracy</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:33557/categories/</link>
     <description>Recent content in Categories on Restore Democracy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Oct 2025 16:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:33557/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Direct Action</title>
-      <link>http://localhost:1313/categories/direct-action/</link>
+      <link>http://localhost:33557/categories/direct-action/</link>
       <pubDate>Thu, 09 Oct 2025 16:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/categories/direct-action/</guid>
+      <guid>http://localhost:33557/categories/direct-action/</guid>
       <description></description>
     </item>
     <item>
       <title>Freedom Alert</title>
-      <link>http://localhost:1313/categories/freedom-alert/</link>
+      <link>http://localhost:33557/categories/freedom-alert/</link>
       <pubDate>Thu, 09 Oct 2025 16:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/categories/freedom-alert/</guid>
+      <guid>http://localhost:33557/categories/freedom-alert/</guid>
       <description></description>
     </item>
     <item>
       <title>Climate Justice</title>
-      <link>http://localhost:1313/categories/climate-justice/</link>
+      <link>http://localhost:33557/categories/climate-justice/</link>
       <pubDate>Thu, 11 Jan 2024 16:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/categories/climate-justice/</guid>
+      <guid>http://localhost:33557/categories/climate-justice/</guid>
       <description></description>
     </item>
     <item>
       <title>Constitutional Rights</title>
-      <link>http://localhost:1313/categories/constitutional-rights/</link>
+      <link>http://localhost:33557/categories/constitutional-rights/</link>
       <pubDate>Thu, 11 Jan 2024 16:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/categories/constitutional-rights/</guid>
+      <guid>http://localhost:33557/categories/constitutional-rights/</guid>
       <description></description>
     </item>
     <item>
       <title>Deep State</title>
-      <link>http://localhost:1313/categories/deep-state/</link>
+      <link>http://localhost:33557/categories/deep-state/</link>
       <pubDate>Thu, 11 Jan 2024 16:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/categories/deep-state/</guid>
+      <guid>http://localhost:33557/categories/deep-state/</guid>
       <description></description>
     </item>
     <item>
       <title>Indigenous Rights</title>
-      <link>http://localhost:1313/categories/indigenous-rights/</link>
+      <link>http://localhost:33557/categories/indigenous-rights/</link>
       <pubDate>Thu, 11 Jan 2024 16:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/categories/indigenous-rights/</guid>
+      <guid>http://localhost:33557/categories/indigenous-rights/</guid>
       <description></description>
     </item>
   </channel>
