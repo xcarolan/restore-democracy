@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Direct Action on Restore Democracy</title>
-    <link>https://restore-democracy.org/categories/direct-action/</link>
+    <link>http://localhost:1313/categories/direct-action/</link>
     <description>Recent content in Direct Action on Restore Democracy</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Jan 2024 16:00:00 -0500</lastBuildDate>
-    <atom:link href="https://restore-democracy.org/categories/direct-action/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Oct 2025 16:00:00 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/direct-action/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>At the Ballot: Stand for Democracy</title>
+      <link>http://localhost:1313/articles/vote-for-democracy/</link>
+      <pubDate>Thu, 09 Oct 2025 16:00:00 -0500</pubDate>
+      <guid>http://localhost:1313/articles/vote-for-democracy/</guid>
+      <description>You either believe in democracy and all it stands for, or you don&amp;rsquo;t. Despite the noise from politicians, pundits, and media misdirection, the voting booth choice comes down to a fundamental question about American governance.&#xA;Both parties have made missteps over the years, but this moment is different. Today&amp;rsquo;s Republican party has embraced authoritarian tactics: refusing to accept legitimate election results, supporting efforts to overturn the 2020 election, proposing to use presidential power against political opponents, and praising dictators abroad.</description>
+    </item>
     <item>
       <title>Direct Action Halts Fossil Fuel Pipeline as Indigenous Leaders Demand Climate Justice</title>
-      <link>https://restore-democracy.org/articles/climate-justice-now/</link>
+      <link>http://localhost:1313/articles/climate-justice-now/</link>
       <pubDate>Thu, 11 Jan 2024 16:00:00 -0500</pubDate>
-      <guid>https://restore-democracy.org/articles/climate-justice-now/</guid>
+      <guid>http://localhost:1313/articles/climate-justice-now/</guid>
       <description>In a powerful display of intersectional resistance, over 200 water protectors and climate justice activists successfully blocked construction of the Colonial Pipeline Corporation&amp;rsquo;s latest ecological assault on unceded indigenous territories. This direct action represents a crucial convergence of decolonial struggle and climate justice organizing.&#xA;Capitalism&amp;rsquo;s Climate Catastrophe The fossil fuel industry&amp;rsquo;s continued expansion in the face of climate collapse reveals the fundamental contradiction of extractive capitalism:&#xA;Indigenous communities bear the immediate impact Corporate profits prioritized over planetary survival Systemic environmental racism in infrastructure planning Police militarization protecting corporate interests Voices from the Frontlines &amp;ldquo;We&amp;rsquo;re not just fighting a pipeline – we&amp;rsquo;re fighting for survival,&amp;rdquo; explains Sarah Redfeather (they/them), an indigenous youth organizer.</description>
     </item>
   </channel>
