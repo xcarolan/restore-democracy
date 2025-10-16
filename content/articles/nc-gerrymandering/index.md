@@ -10,9 +10,10 @@ featured_image: "evilGroup.jpeg"
 comments: true
 ---
 
-## North Carolina Republicans plan to redraw state’s congressional districts
+## Here we go again
 
-Here we go again!
+North Carolina Republicans plan to redraw state’s congressional districts
+
 House Democratic Leader Robert Reives (D-Chatham) said in a statement that the Republican effort is tantamount to “stealing a congressional district.” He condemned the state GOP for making a rapid push for new maps while failing to fully fund Medicaid.
 
 “Republican lawmakers made clear today that they plan to come back to Raleigh and disenfranchise the voters of this state,” Reives said. “Instead of lowering costs for families or ensuring Medicaid can stay afloat, they are hellbent on consolidating as much power as they can.”
