@@ -2,7 +2,7 @@
 title: "North Carolina Republicans are at it again."
 date: 2025-10-14T20:00:00-05:00
 type: "articles"
-draft: true
+draft: false
 author: "Luna Rainbow"
 categories: ["Freedom Alert", "Direct Action"]
 tags: ["voting", "freedom", "democracy", "elections"]

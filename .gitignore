@@ -1,0 +1,24 @@
+# Hugo generated files
+public/
+resources/_gen/
+
+# Hugo build lock file
+.hugo_build.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node modules (if using npm/yarn for asset processing)
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# OS generated files
+Thumbs.db
