@@ -1,6 +1,6 @@
 ---
 title: "The Infrastructure Trap: Why Civic Tech Tools Never Ship"
-date: 2026-03-01T23:36:00-05:00
+date: 2025-10-15T20:00:00-05:00
 type: "articles"
 draft: false
 author: "Sylvester Carolan"
