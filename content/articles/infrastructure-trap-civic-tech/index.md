@@ -7,6 +7,7 @@ author: "Sylvester Carolan"
 categories: ["Freedom Alert", "Direct Action"]
 tags: ["civic-tech", "voting", "democracy", "volunteer"]
 comments: true
+featured_image: "featured.jpeg"
 ---
 
 My wife has a pet peeve about me. She calls it "infrastructure syndrome." I'll spend three hours configuring a backup system for a project that doesn't have any data worth backing up yet. The other night she walked by my desk, saw me tweaking nginx configs for the hundredth time, and just sighed. "You're building a cathedral for a congregation that doesn't exist."
