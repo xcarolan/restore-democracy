@@ -33,7 +33,7 @@
     {{ with .Params.tags }}{{ range . }}<meta property="article:tag" content="{{ . }}">{{ end }}{{ end }}
     {{ end }}
     
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Add Tailwind CSS for modern styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Add Alpine.js for interactivity -->
@@ -45,8 +45,13 @@
             <div class="flex justify-between items-center">
                 <a href="/" class="text-2xl font-bold text-gray-800">{{ .Site.Title }}</a>
                 <div class="flex space-x-4">
-                    {{ range .Site.Menus.main }}
-                    <a href="{{ .URL }}" class="text-gray-700 hover:text-gray-900">{{ .Name }}</a>
+                    {{ if .Site.Menus.main }}
+                        {{ range .Site.Menus.main }}
+                        <a href="{{ .URL }}" class="text-gray-700 hover:text-gray-900">{{ .Name }}</a>
+                        {{ end }}
+                    {{ else }}
+                        <a href="/articles" class="text-gray-700 hover:text-gray-900">Articles</a>
+                        <a href="/categories" class="text-gray-700 hover:text-gray-900">Categories</a>
                     {{ end }}
                     <div x-data="{ open: false }" class="relative">
                         <button @click="open = !open" class="text-gray-700 hover:text-gray-900">Search</button>

@@ -2,6 +2,22 @@ baseURL: https://restore-democracy.org/
 languageCode: en-us
 title: Restore Democracy
 theme: hugo-news
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Articles
+      url: /articles
+      weight: 20
+    - name: Categories
+      url: /categories
+      weight: 30
+    - name: Authors
+      url: /authors
+      weight: 40
+
 taxonomies:
   category: categories
   tag: tags
