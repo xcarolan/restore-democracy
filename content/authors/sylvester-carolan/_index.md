@@ -7,6 +7,7 @@ education:
   - "Engineering and Computer Science"
 social:
   github: "xcarolan"
+featured_image: "sylvester.jpeg"
 ---
 
 Sylvester Carolan has spent over three decades solving complex problems at massive scale — from trading platforms handling $50B in daily transactions to AI/ML systems that reduced incidents by 45%. Now he's channeling that experience into civic technology.
