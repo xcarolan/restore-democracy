@@ -2,7 +2,7 @@
 title: "The Infrastructure Trap: Why Civic Tech Tools Never Ship"
 date: 2025-10-15T20:00:00-05:00
 type: "articles"
-draft: false
+draft: true
 author: "Sylvester Carolan"
 categories: ["Freedom Alert", "Direct Action"]
 tags: ["civic-tech", "voting", "democracy", "volunteer"]

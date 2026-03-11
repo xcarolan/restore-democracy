@@ -2,7 +2,7 @@
 title: "The Timing Is Never Accidental: Pattern Recognition in a Crisis"
 date: 2025-11-15T20:00:00-05:00
 type: "articles"
-draft: false
+draft: true
 author: "Sylvester Carolan"
 categories: ["Freedom Alert", "Direct Action"]
 tags: ["iran", "epstein-files", "trump", "war-powers", "democracy"]

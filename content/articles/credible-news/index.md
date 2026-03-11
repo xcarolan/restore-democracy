@@ -1,15 +1,13 @@
 ---
 title: "Where are the Credible News Sources?"
 date: 2024-10-17T10:00:00-05:00
-type: "articles"
 draft: false
-author: "Luna Rainbow"
+author: "Cato Minor"
 categories: ["News", "Media"]
 tags: ["news", "truth", "facts"]
 featured_image: "liberty.jpg"
 comments: true
 ---
-
 If there is one thing to take away from this article, it's that not all "news"
 is created equal. Many sources, particularly **social media feeds** and
 **opinion-focused programming**, are often presented as objective news but are
@@ -106,7 +104,7 @@ nuanced understanding of the world around you.
 
 ## These are NOT Credible News Sources
 
-- Social Media (Facebook, Instagram, X/Twitter, Tik Tok)
+- Social Media (Facebook, Instagram, X/Twitter, TikTok)
 - Opinion or analysis content from any source (print, broadcast, or online).
   This includes opinion columns, editorial sections, and talk/analysis shows
   (like those on CNN, Fox News, MSNBC, etc.).

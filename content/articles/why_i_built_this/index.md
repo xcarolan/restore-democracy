@@ -1,16 +1,16 @@
 ---
-title: "Why I built this site"
+title: "Why this site"
 date: 2026-03-10T14:00:00-04:00
 type: "articles"
 draft: false
-author: "Sylvester Carolan"
 categories: ["Direct Action"]
+author: "Cato Minor" 
 tags: ["democracy"]
 comments: true
 featured_image: "democracy-preview.jpeg"
 ---
 
-## Why I Built This
+## Why?
 
 Honestly? I got frustrated.
 

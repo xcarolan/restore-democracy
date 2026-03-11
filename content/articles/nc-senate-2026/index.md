@@ -1,9 +1,9 @@
 ---
-title: "The NC Senate Race That Could Decide Everything: Cooper vs. Whatley"
+title: "The NC Senate Race That Could Decide Everything"
 type: "articles"
 date: 2026-03-10T13:00:00-04:00
 draft: false
-author: "Sylvester Carolan"
+author: "Cato Minor"
 categories: ["Freedom Alert", "Direct Action"]
 tags: ["democracy"]
 comments: true

@@ -2,7 +2,7 @@
 title: "EXPOSED: Global Elites Push Digital Currency to Control American Freedom"
 date: 2024-01-11T16:00:00-05:00
 type: "articles"
-draft: false
+draft: true
 author: "Buck Patriot"
 categories: ["Deep State", "Freedom Alert", "Constitutional Rights"]
 tags: ["globalist agenda", "financial freedom", "sovereignty"]
