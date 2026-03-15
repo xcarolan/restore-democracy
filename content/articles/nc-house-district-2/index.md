@@ -2,7 +2,7 @@
 title: "NC-2 Voters: You Have More Power Than You Think — If You Use It Right"
 date: 2026-03-15T00:00:00Z
 type: "articles"
-draft: false
+draft: true
 author: "Sylvester Carol"
 categories: ["NC Elections", "Voter Guide"]
 tags: ["NC-2", "Deborah Ross", "Eugene Douglass", "2026 election", "voter guide"]
