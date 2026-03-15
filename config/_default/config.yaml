@@ -1,0 +1,36 @@
+baseURL: https://restore-democracy.org/
+languageCode: en-us
+title: Restore Democracy
+theme: hugo-news
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Articles
+      url: /articles
+      weight: 20
+    - name: Categories
+      url: /categories
+      weight: 30
+    - name: Authors
+      url: /authors
+      weight: 40
+
+taxonomies:
+  category: categories
+  tag: tags
+params:
+  subtitle: "Freedom of speech is the great bulwark of liberty; they prosper and die together."
+  # If the above doesn't show up, some versions use 'description' for the header tagline:
+  description: "Freedom of speech is the great bulwark of liberty."
+  author: "Cato Minor"
+  showSidebar: true
+  mainSections: [ "articles" ]
+  widgets:
+    sidebar:
+      - search
+      - recent_posts
+      - categories
+      - tag_cloud
