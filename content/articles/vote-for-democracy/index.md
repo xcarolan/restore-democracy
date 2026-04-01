@@ -6,7 +6,7 @@ draft: false
 author: "Cato Minor"
 categories: ["Freedom Alert", "Direct Action"]
 tags: ["voting", "freedom", "democracy", "elections"]
-featured_image: "democracy-preview.jpeg"
+featured_image: "PollingBooth.png"
 comments: true
 ---
 
