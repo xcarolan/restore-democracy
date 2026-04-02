@@ -3,19 +3,11 @@ author: Theta
 candidates:
 - Paul Barringer
 - Brad Knott
-categories:
-- U.S.
-- House
-- Of
-- Representatives
-- '13'
-- District
-- ''
-- '2026'
+categories: ["NC", "Federal"]
 comments: true
 date: '2026-04-02T16:43:55.389485+00:00'
 draft: true
-featured_image: ''
+featured_image: 'HOR.png'
 office: u.s.-house-of-representatives-13-district--2026
 pipeline_state: review-ready
 published_at: '2026-04-02T16:43:55.389485+00:00'

@@ -75,7 +75,7 @@
         <div id="categories-container" class="grid gap-4 md:grid-cols-4 grid-rows-2">
             {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
             <a href="/categories/{{ $name | urlize }}" class="category-item bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow hidden">
-                <h3 class="text-xl font-semibold text-gray-900">{{ $name }}</h3>
+                <h3 class="text-xl font-semibold text-gray-900">{{ $taxonomy.Page.Title }}</h3>
                 <p class="text-gray-600">{{ len $taxonomy }} {{ if eq (len $taxonomy) 1 }}article{{ else }}articles{{ end }}</p>
             </a>
             {{ end }}

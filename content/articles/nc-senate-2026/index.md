@@ -1,5 +1,5 @@
 ---
-author: theta
+author: Theta
 candidates:
 - Roy Cooper
 - Michael Whatley

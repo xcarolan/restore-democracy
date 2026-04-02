@@ -2,10 +2,10 @@
 title: "NC-2 Voters: You Have More Power Than You Think — If You Use It Right"
 date: 2026-03-15T00:00:00Z
 type: "articles"
-draft: true
-author: "Sylvester Carol"
-categories: ["NC Elections", "Voter Guide"]
-tags: ["NC-2", "Deborah Ross", "Eugene Douglass", "2026 election", "voter guide"]
+draft: false
+author: "Cato Minor"
+categories: ["State","NC" ]
+tags: ["NC", "NC-2", "Deborah Ross", "Eugene Douglass", "2026 election", "State"]
 featured_image: ""
 comments: true
 ---
@@ -72,6 +72,7 @@ You live in a safe Democratic seat. That doesn't make your voice irrelevant — 
 ---
 
 **Learn more:**
+
 - **Deborah Ross:** [Official site](https://ross.house.gov/) | [Ballotpedia](https://ballotpedia.org/Deborah_Ross)
 - **Eugene Douglass:** [Ballotpedia](https://ballotpedia.org/Eugene_Douglass)
 

@@ -17,6 +17,9 @@ menu:
     - name: Authors
       url: /authors
       weight: 40
+    - name: About
+      url: /about
+      weight: 50
 
 taxonomies:
   category: categories
@@ -27,10 +30,11 @@ params:
   description: "Freedom of speech is the great bulwark of liberty."
   author: "Cato Minor"
   showSidebar: true
-  mainSections: [ "articles" ]
+  mainSections: ["articles"]
   widgets:
     sidebar:
       - search
       - recent_posts
       - categories
       - tag_cloud
+
