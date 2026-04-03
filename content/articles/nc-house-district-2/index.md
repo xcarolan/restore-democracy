@@ -5,8 +5,8 @@ type: "articles"
 draft: false
 author: "Cato Minor"
 categories: ["State","NC" ]
-tags: ["NC", "NC-2", "Deborah Ross", "Eugene Douglass", "2026 election", "State"]
-featured_image: ""
+tags: [ "NC-2", "Deborah Ross", "Eugene Douglass", "2026 election"]
+featured_image: "hero.png"
 comments: true
 ---
 

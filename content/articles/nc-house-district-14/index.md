@@ -2,11 +2,11 @@
 title: "Your Vote, Your District: What Voters in NC-14 Need to Know About Tim Moore vs. LaKesha Womack"
 date: 2026-03-15T00:00:00Z
 type: "articles"
-draft: true
+draft: false
 author: "Cato Minor"
 categories: ["NC", "State"]
 tags: ["NC-14", "Tim Moore", "LaKesha Womack", "2026 election"]
-featured_image: ""
+featured_image: "hero.png"
 comments: true
 ---
 

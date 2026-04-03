@@ -3,10 +3,7 @@ author: Theta
 candidates:
 - Roy Cooper
 - Michael Whatley
-categories:
-- NC
-- U.S Senate
-- '2026'
+categories: ["NC","Federal"]
 comments: true
 date: '2026-04-01T16:45:54.844016+00:00'
 draft: false 
@@ -15,11 +12,8 @@ office: nc-senate-2026
 pipeline_state: review-ready
 published_at: '2026-04-01T16:45:54.844016+00:00'
 slug: nc-senate-2026-analysis
-tags:
-- roy-cooper
-- michael-whatley
-- nc-senate-2026
-title: Nc Senate 2026 Analysis
+tags: ["Roy Cooper", "Michael Whatley"]
+title: NC Senate 2026 Analysis
 ---
 
 # North Carolina's U.S. Senate Race: Cooper vs. Whatley

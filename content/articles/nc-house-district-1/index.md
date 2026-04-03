@@ -2,11 +2,11 @@
 title: "The Race That Could Define Eastern NC: Don Davis vs. Laurie Buckhout in NC-1"
 date: 2026-03-15T00:00:00Z
 type: "articles"
-draft: true
+draft: false
 author: "Cato Minor"
 categories: ["State", "NC"]
-tags: ["NC-1", "Don Davis", "Laurie Buckhout", "2026 election", "voter guide"]
-featured_image: ""
+tags: ["NC-1", "Don Davis", "Laurie Buckhout", "2026 election"]
+featured_image: "hero.png"
 comments: true
 ---
 
