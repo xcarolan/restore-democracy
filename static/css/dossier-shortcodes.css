@@ -1,0 +1,259 @@
+/* ============================================================
+   DOSSIER SHORTCODES — restore-democracy.org
+   Styles for Hugo shortcodes: case-card, verdict, section-label,
+   pullquote, platform-table, kicker
+   ============================================================ */
+
+/* === CSS VARIABLES (mirrors dossier.css) === */
+:root {
+  --dossier-gold:          #c9a84c;
+  --dossier-gold-hover:    #e2bf72;
+  --dossier-bg:            #0f0f0f;
+  --dossier-surface:       #1a1a1a;
+  --dossier-text:          #f0ece4;
+  --dossier-text-muted:    #a09880;
+  --dossier-border:        rgba(201, 168, 76, 0.2);
+  --dossier-border-strong: rgba(201, 168, 76, 0.5);
+  --dossier-amber-bg:      rgba(201, 168, 76, 0.08);
+  --dossier-amber-border:  rgba(201, 168, 76, 0.3);
+  --dossier-blue-bg:       rgba(56, 139, 221, 0.08);
+  --dossier-blue-border:   rgba(56, 139, 221, 0.3);
+  --dossier-blue-text:     #7ab3e8;
+}
+
+
+/* === CASE-CARD === */
+
+.dossier-case-card {
+  border: 0.5px solid var(--dossier-border);
+  border-radius: 10px;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  background: var(--dossier-surface);
+}
+
+.dossier-case-header {
+  padding: 1rem 1.25rem 0.85rem;
+  border-bottom: 0.5px solid var(--dossier-border);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.dossier-case-number {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--dossier-gold);
+  background: var(--dossier-amber-bg);
+  border: 0.5px solid var(--dossier-amber-border);
+  border-radius: 4px;
+  padding: 2px 7px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.dossier-case-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.dossier-case-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--dossier-text);
+}
+
+.dossier-case-platforms {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  color: var(--dossier-text-muted);
+  letter-spacing: 0.08em;
+  margin-top: 4px;
+}
+
+.dossier-case-body {
+  padding: 1.1rem 1.25rem;
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--dossier-text);
+}
+
+/* Normalize paragraph spacing inside case body */
+.dossier-case-body p {
+  margin: 0 0 0.75rem;
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--dossier-text);
+}
+.dossier-case-body p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* === VERDICT === */
+
+.dossier-verdict-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 0.75rem;
+}
+
+.dossier-verdict-box {
+  border-radius: 6px;
+  padding: 0.85rem 1rem;
+}
+
+.dossier-verdict-misdirection {
+  background: var(--dossier-amber-bg);
+  border: 0.5px solid var(--dossier-amber-border);
+}
+
+.dossier-verdict-reality {
+  background: var(--dossier-blue-bg);
+  border: 0.5px solid var(--dossier-blue-border);
+}
+
+.dossier-verdict-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.dossier-verdict-misdirection .dossier-verdict-label {
+  color: var(--dossier-gold);
+}
+
+.dossier-verdict-reality .dossier-verdict-label {
+  color: var(--dossier-blue-text);
+}
+
+.dossier-verdict-text {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--dossier-text);
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .dossier-verdict-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* === SECTION-LABEL === */
+
+.dossier-section-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--dossier-text-muted);
+  margin: 2.5rem 0 1rem;
+  padding-top: 1rem;
+  border-top: 0.5px solid var(--dossier-border);
+}
+
+
+/* === PULLQUOTE === */
+
+.dossier-pullquote {
+  border-left: 3px solid var(--dossier-gold);
+  border-radius: 0 6px 6px 0;
+  background: var(--dossier-surface);
+  padding: 0.75rem 1.25rem;
+  margin: 2rem 0;
+}
+
+.dossier-pullquote p {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--dossier-text);
+  margin: 0;
+}
+
+
+/* === PLATFORM-TABLE === */
+
+.dossier-platform-table-wrap {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  /* Thin scrollbar on webkit */
+  scrollbar-width: thin;
+  scrollbar-color: var(--dossier-border) transparent;
+}
+
+.dossier-platform-table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  background: var(--dossier-surface);
+}
+
+.dossier-platform-table-wrap th {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--dossier-text-muted);
+  border-bottom: 0.5px solid var(--dossier-border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.dossier-platform-table-wrap td {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-size: 16px;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 0.5px solid var(--dossier-border);
+  color: var(--dossier-text);
+  vertical-align: top;
+}
+
+.dossier-platform-table-wrap tr:last-child td {
+  border-bottom: none;
+}
+
+.dossier-platform-table-wrap td strong {
+  font-family: 'Crimson Pro', Georgia, serif;
+  font-weight: 600;
+  color: var(--dossier-text);
+}
+
+
+/* === KICKER === */
+
+.dossier-kicker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--dossier-text-muted);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.2rem;
+}
+
+.dossier-kicker::before {
+  content: '';
+  width: 28px;
+  height: 1px;
+  background: var(--dossier-text-muted);
+  opacity: 0.5;
+  flex-shrink: 0;
+}

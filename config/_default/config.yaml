@@ -38,3 +38,8 @@ params:
       - categories
       - tag_cloud
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+

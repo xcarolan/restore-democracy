@@ -1,0 +1,672 @@
+/* ============================================================
+   DOSSIER THEME — restore-democracy.org
+   Dark editorial aesthetic: Playfair Display / Crimson Pro / JetBrains Mono
+   ============================================================ */
+
+/* ---- CSS VARIABLES ---- */
+:root {
+  --dossier-bg:           #0f0f0f;
+  --dossier-surface:      #1a1a1a;
+  --dossier-nav:          #111111;
+  --dossier-gold:         #c9a84c;
+  --dossier-gold-hover:   #e2bf72;
+  --dossier-text:         #f0ece4;
+  --dossier-text-sec:     #a09880;
+  --dossier-border:       rgba(201, 168, 76, 0.2);
+  --dossier-border-str:   rgba(201, 168, 76, 0.5);
+}
+
+
+/* ============================================================
+   GLOBAL / RESET
+   ============================================================ */
+
+html,
+body {
+  background-color: var(--dossier-bg) !important;
+  color: var(--dossier-text) !important;
+  font-family: 'Crimson Pro', Georgia, serif !important;
+}
+
+::selection {
+  background-color: var(--dossier-gold);
+  color: #0f0f0f;
+}
+
+/* Default link style (gold, no underline; underline on hover) */
+a {
+  color: var(--dossier-gold) !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: var(--dossier-gold-hover) !important;
+  text-decoration: underline !important;
+}
+
+/* All headings use Playfair Display */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+}
+
+/* Horizontal rules — gold, low opacity */
+hr {
+  border-color: var(--dossier-border) !important;
+}
+
+
+/* ============================================================
+   NAVIGATION / HEADER
+   baseof.html: <header class="bg-white shadow-md">
+                  <nav class="container mx-auto px-6 py-3">
+                    <a class="text-2xl font-bold text-gray-800"> (site title)
+                    <a class="text-gray-700 hover:text-gray-900"> (nav links)
+   ============================================================ */
+
+body > header {
+  background-color: var(--dossier-nav) !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid var(--dossier-border) !important;
+}
+
+/* Site title */
+body > header a.text-2xl {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-gold) !important;
+  text-decoration: none !important;
+}
+body > header a.text-2xl:hover {
+  color: var(--dossier-gold-hover) !important;
+  text-decoration: none !important;
+}
+
+/* Nav links */
+body > header a.text-gray-700 {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  text-decoration: none !important;
+}
+body > header a.text-gray-700:hover {
+  color: var(--dossier-gold) !important;
+  text-decoration: none !important;
+}
+
+/* Search button */
+body > header button.text-gray-700 {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+}
+body > header button.text-gray-700:hover {
+  color: var(--dossier-gold) !important;
+}
+
+/* Search dropdown */
+body > header .bg-white.rounded-md {
+  background-color: var(--dossier-surface) !important;
+  border: 1px solid var(--dossier-border) !important;
+  box-shadow: none !important;
+}
+body > header input {
+  background-color: var(--dossier-bg) !important;
+  color: var(--dossier-text) !important;
+  border-color: var(--dossier-border) !important;
+}
+body > header input::placeholder {
+  color: var(--dossier-text-sec) !important;
+}
+
+
+/* ============================================================
+   PAGE BACKGROUND / MAIN CONTAINER
+   ============================================================ */
+
+/* Tailwind applies bg-gray-100 directly on <body> — covered above.
+   Also neutralize the main container. */
+main.container {
+  background-color: var(--dossier-bg) !important;
+}
+
+
+/* ============================================================
+   CARDS — featured article, article grid, author cards
+   All use: class="bg-white rounded-lg shadow-md/shadow-lg overflow-hidden"
+   ============================================================ */
+
+article.bg-white,
+div.bg-white.rounded-lg,
+div.bg-white.rounded-lg.shadow-md,
+div.bg-white.rounded-lg.shadow-lg {
+  background-color: var(--dossier-surface) !important;
+  box-shadow: none !important;
+  border: 1px solid var(--dossier-border) !important;
+}
+
+/* Category browse cards */
+a.category-item {
+  background-color: var(--dossier-surface) !important;
+  box-shadow: none !important;
+  border: 1px solid var(--dossier-border) !important;
+}
+a.category-item:hover {
+  border-color: var(--dossier-border-str) !important;
+  box-shadow: none !important;
+}
+
+
+/* ============================================================
+   HOMEPAGE SECTION HEADINGS
+   "Recent Articles", "Browse by Category", "Our Authors"
+   ============================================================ */
+
+h2.text-3xl,
+h2.text-4xl {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+}
+h3.text-xl,
+h3.text-3xl {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+}
+
+/* Section heading category names */
+h3.text-xl.font-semibold {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+}
+
+
+/* ============================================================
+   ARTICLE TITLE LINKS
+   class="text-gray-900 hover:text-blue-600"
+   ============================================================ */
+
+a.text-gray-900 {
+  color: var(--dossier-text) !important;
+  text-decoration: none !important;
+}
+a.text-gray-900:hover {
+  color: var(--dossier-gold-hover) !important;
+  text-decoration: none !important;
+}
+
+
+/* ============================================================
+   AUTHOR LINKS
+   class="text-blue-600 hover:text-blue-800"
+   ============================================================ */
+
+a.text-blue-600 {
+  color: var(--dossier-gold) !important;
+  text-decoration: none !important;
+}
+a.text-blue-600:hover {
+  color: var(--dossier-gold-hover) !important;
+  text-decoration: underline !important;
+}
+
+
+/* ============================================================
+   META TEXT (author, date, counts)
+   class="text-gray-600", "text-gray-700"
+   ============================================================ */
+
+.text-gray-600 {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.72rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.07em !important;
+}
+
+/* Body / description paragraphs also use text-gray-700 — keep readable */
+p.text-gray-700 {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  font-size: 1rem !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+
+/* Override the monospace from .text-gray-600 on paragraph-level meta in cards */
+.text-gray-600 span,
+.text-gray-600 a {
+  font-family: inherit !important;
+}
+
+
+/* ============================================================
+   CATEGORY / TAG PILLS
+   class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm" (category)
+   class="px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm" (tag)
+   ============================================================ */
+
+a.bg-blue-100 {
+  background-color: transparent !important;
+  color: var(--dossier-gold) !important;
+  border: 1px solid var(--dossier-gold) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.62rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  text-decoration: none !important;
+  border-radius: 2px !important;
+  padding: 0.2rem 0.6rem !important;
+}
+a.bg-blue-100:hover {
+  border-color: var(--dossier-gold-hover) !important;
+  color: var(--dossier-gold-hover) !important;
+  text-decoration: none !important;
+}
+
+a.bg-gray-100 {
+  background-color: transparent !important;
+  color: var(--dossier-text-sec) !important;
+  border: 1px solid var(--dossier-border-str) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.62rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  text-decoration: none !important;
+  border-radius: 2px !important;
+  padding: 0.2rem 0.6rem !important;
+}
+a.bg-gray-100:hover {
+  color: var(--dossier-text) !important;
+  border-color: var(--dossier-border) !important;
+  text-decoration: none !important;
+}
+
+
+/* ============================================================
+   "READ MORE" BUTTON (featured article)
+   class="inline-block bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700"
+   ============================================================ */
+
+a.bg-blue-600 {
+  background-color: transparent !important;
+  color: var(--dossier-gold) !important;
+  border: 1px solid var(--dossier-gold) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.68rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  text-decoration: none !important;
+  border-radius: 2px !important;
+}
+a.bg-blue-600:hover {
+  background-color: rgba(201, 168, 76, 0.1) !important;
+  color: var(--dossier-gold-hover) !important;
+  border-color: var(--dossier-gold-hover) !important;
+  text-decoration: none !important;
+}
+
+
+/* ============================================================
+   "VIEW ALL ARTICLES" BUTTON
+   class="inline-block bg-gray-800 text-white px-8 py-3 rounded-md hover:bg-gray-700"
+   ============================================================ */
+
+a.bg-gray-800 {
+  background-color: transparent !important;
+  color: var(--dossier-gold) !important;
+  border: 1px solid var(--dossier-gold) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.68rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.12em !important;
+  text-decoration: none !important;
+  border-radius: 2px !important;
+}
+a.bg-gray-800:hover {
+  background-color: rgba(201, 168, 76, 0.1) !important;
+  border-color: var(--dossier-gold-hover) !important;
+  color: var(--dossier-gold-hover) !important;
+  text-decoration: none !important;
+}
+
+
+/* ============================================================
+   CATEGORY PAGINATION BUTTONS
+   class="px-4 py-2 bg-gray-200 rounded-md hover:bg-gray-300 ..."
+   ============================================================ */
+
+button.bg-gray-200 {
+  background-color: var(--dossier-surface) !important;
+  color: var(--dossier-text-sec) !important;
+  border: 1px solid var(--dossier-border) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.07em !important;
+  border-radius: 2px !important;
+}
+button.bg-gray-200:hover:not(:disabled) {
+  background-color: var(--dossier-nav) !important;
+  border-color: var(--dossier-border-str) !important;
+  color: var(--dossier-text) !important;
+}
+button.bg-gray-200:disabled {
+  opacity: 0.35 !important;
+}
+
+/* Category page info text */
+span#category-page-info {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.7rem !important;
+  color: var(--dossier-text-sec) !important;
+}
+
+
+/* ============================================================
+   FOOTER
+   baseof.html: <footer class="bg-gray-800 text-white">
+   ============================================================ */
+
+body > footer {
+  background-color: var(--dossier-nav) !important;
+  border-top: 1px solid var(--dossier-border) !important;
+}
+body > footer p {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.07em !important;
+}
+
+
+/* ============================================================
+   ARTICLE / SINGLE PAGE
+   single.html uses inline <style> — all overrides need !important
+   ============================================================ */
+
+/* Article title */
+article.max-w-4xl h1 {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+  font-size: 2.4rem !important;
+  line-height: 1.2 !important;
+  font-weight: 700 !important;
+}
+
+/* Byline container */
+article.max-w-4xl header .text-gray-600 {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.72rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+}
+
+/* Featured image */
+article.max-w-4xl img.w-full {
+  border-radius: 0 !important;
+  display: block !important;
+}
+
+
+/* ---- ARTICLE CONTENT WRAPPER ---- */
+
+div.markdown-content {
+  background-color: var(--dossier-surface) !important;
+  box-shadow: none !important;
+  border: 1px solid var(--dossier-border) !important;
+  color: var(--dossier-text) !important;
+  line-height: 1.75 !important;
+}
+
+/* Body paragraphs */
+.markdown-content p {
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  font-size: 18px !important;
+  line-height: 1.75 !important;
+  color: var(--dossier-text) !important;
+}
+
+/* Lists */
+.markdown-content ul,
+.markdown-content ol,
+.markdown-content li {
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  font-size: 18px !important;
+  line-height: 1.75 !important;
+  color: var(--dossier-text) !important;
+}
+
+/* Headings */
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4 {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+  border-left: 3px solid var(--dossier-gold) !important;
+  padding-left: 0.75rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.markdown-content h1 { font-size: 2rem !important; font-weight: 700 !important; }
+.markdown-content h2 { font-size: 1.75rem !important; font-weight: 700 !important; }
+.markdown-content h3 { font-size: 1.4rem !important; font-weight: 600 !important; }
+
+/* Strong */
+.markdown-content strong {
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  font-weight: 600 !important;
+  color: var(--dossier-text) !important;
+}
+
+/* Links */
+.markdown-content a {
+  color: var(--dossier-gold) !important;
+  text-decoration: none !important;
+}
+.markdown-content a:hover {
+  color: var(--dossier-gold-hover) !important;
+  text-decoration: underline !important;
+}
+
+/* Blockquote */
+.markdown-content blockquote {
+  border-left: 3px solid var(--dossier-gold) !important;
+  background-color: rgba(201, 168, 76, 0.05) !important;
+  color: var(--dossier-text-sec) !important;
+  font-style: italic !important;
+  padding: 0.5rem 1rem 0.5rem 1.5rem !important;
+  margin: 1.5rem 0 !important;
+}
+/* Override default gray blockquote border */
+.markdown-content blockquote,
+.prose blockquote {
+  border-inline-start-color: var(--dossier-gold) !important;
+}
+
+/* Code (inline) */
+.markdown-content code {
+  background-color: rgba(15, 15, 15, 0.8) !important;
+  color: var(--dossier-gold) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  border: 1px solid var(--dossier-border) !important;
+  padding: 0.15rem 0.4rem !important;
+  border-radius: 2px !important;
+}
+
+/* Code blocks */
+.markdown-content pre {
+  background-color: #0a0a0a !important;
+  border: 1px solid var(--dossier-border) !important;
+  border-radius: 2px !important;
+  overflow-x: auto !important;
+}
+.markdown-content pre code {
+  background-color: transparent !important;
+  border: none !important;
+  color: var(--dossier-gold) !important;
+  padding: 0 !important;
+}
+
+/* HR in content */
+.markdown-content hr {
+  border: 0 !important;
+  border-top: 1px solid var(--dossier-border) !important;
+  margin: 2rem 0 !important;
+}
+
+/* Images in content */
+.markdown-content img {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  max-width: 100% !important;
+}
+
+/* Tables */
+.markdown-content table {
+  background-color: var(--dossier-surface) !important;
+  color: var(--dossier-text) !important;
+  border-collapse: collapse !important;
+}
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid var(--dossier-border) !important;
+  color: var(--dossier-text) !important;
+}
+.markdown-content th {
+  background-color: rgba(201, 168, 76, 0.08) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.07em !important;
+  border-bottom: 2px solid var(--dossier-gold) !important;
+}
+
+
+/* ============================================================
+   COMMENTS SECTION
+   ============================================================ */
+
+#comments {
+  border-top-color: var(--dossier-border) !important;
+}
+#comments h2.text-2xl {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+}
+#comments label {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.68rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.07em !important;
+}
+#comments input,
+#comments textarea {
+  background-color: var(--dossier-bg) !important;
+  color: var(--dossier-text) !important;
+  border-color: var(--dossier-border) !important;
+}
+#comments input:focus,
+#comments textarea:focus {
+  border-color: var(--dossier-gold) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 1px var(--dossier-gold) !important;
+}
+/* Post Comment button */
+#comments button.bg-blue-600 {
+  background-color: transparent !important;
+  color: var(--dossier-gold) !important;
+  border: 1px solid var(--dossier-gold) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.68rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  border-radius: 2px !important;
+}
+#comments button.bg-blue-600:hover {
+  background-color: rgba(201, 168, 76, 0.1) !important;
+  border-color: var(--dossier-gold-hover) !important;
+  color: var(--dossier-gold-hover) !important;
+}
+/* No-comments placeholder */
+#comments p.text-gray-600 {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  font-size: 1rem !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+/* Comment card */
+div.bg-gray-50 {
+  background-color: var(--dossier-surface) !important;
+  border-color: var(--dossier-border) !important;
+}
+/* Journalist/static comment border */
+.border-l-4 {
+  border-left-color: var(--dossier-gold) !important;
+}
+/* Comment text */
+p.text-gray-700 {
+  color: var(--dossier-text) !important;
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  font-size: 1rem !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+/* Comment date */
+span.text-sm.text-gray-600 {
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.65rem !important;
+  color: var(--dossier-text-sec) !important;
+}
+/* Journalist commenter link */
+a.text-blue-600.hover\:text-blue-800 {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+
+/* ============================================================
+   TAXONOMY / LIST / TERMS PAGES
+   Carry over the card styles for list pages
+   ============================================================ */
+
+div.max-w-4xl h1.text-4xl {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  color: var(--dossier-text) !important;
+}
+p.text-xl.text-gray-600 {
+  color: var(--dossier-text-sec) !important;
+  font-family: 'Crimson Pro', Georgia, serif !important;
+  font-size: 1.1rem !important;
+  text-transform: none !important;
+  letter-spacing: normal !important;
+}
+
+
+/* ============================================================
+   MOBILE BREAKPOINT
+   ============================================================ */
+
+@media (max-width: 640px) {
+  body > header nav > div {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+  article.max-w-4xl h1 {
+    font-size: 1.75rem !important;
+  }
+  div.markdown-content {
+    padding: 1.25rem !important;
+  }
+  h2.text-3xl,
+  h2.text-4xl {
+    font-size: 1.5rem !important;
+  }
+}

@@ -1,0 +1,12 @@
+<div class="dossier-case-card">
+  <div class="dossier-case-header">
+    <span class="dossier-case-number">CASE {{ .Get "number" }}</span>
+    <div class="dossier-case-meta">
+      <div class="dossier-case-title">{{ .Get "title" }}</div>
+      <div class="dossier-case-platforms">{{ .Get "platforms" }}</div>
+    </div>
+  </div>
+  <div class="dossier-case-body">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
