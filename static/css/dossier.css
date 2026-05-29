@@ -3,7 +3,7 @@
    Dark editorial aesthetic: Playfair Display / Crimson Pro / JetBrains Mono
    ============================================================ */
 
-/* ---- CSS VARIABLES ---- */
+/* ---- CSS VARIABLES — DARK (default) ---- */
 :root {
   --dossier-bg:           #0f0f0f;
   --dossier-surface:      #1a1a1a;
@@ -14,6 +14,23 @@
   --dossier-text-sec:     #a09880;
   --dossier-border:       rgba(201, 168, 76, 0.2);
   --dossier-border-str:   rgba(201, 168, 76, 0.5);
+  --dossier-code-bg:      rgba(15, 15, 15, 0.8);
+  --dossier-pre-bg:       #0a0a0a;
+}
+
+/* ---- CSS VARIABLES — LIGHT ---- */
+html[data-theme="light"] {
+  --dossier-bg:           #f7f3ec;
+  --dossier-surface:      #ede8de;
+  --dossier-nav:          #e5e0d4;
+  --dossier-gold:         #9a6c00;
+  --dossier-gold-hover:   #b88820;
+  --dossier-text:         #1c1410;
+  --dossier-text-sec:     #6b5d48;
+  --dossier-border:       rgba(120, 90, 40, 0.2);
+  --dossier-border-str:   rgba(120, 90, 40, 0.45);
+  --dossier-code-bg:      rgba(120, 90, 40, 0.08);
+  --dossier-pre-bg:       #ede8de;
 }
 
 
@@ -29,8 +46,12 @@ body {
 }
 
 ::selection {
-  background-color: var(--dossier-gold);
-  color: #0f0f0f;
+  background-color: #c9a84c;
+  color: #1a1008;
+}
+html[data-theme="light"] ::selection {
+  background-color: #9a6c00;
+  color: #f7f3ec;
 }
 
 /* Default link style (gold, no underline; underline on hover) */
@@ -491,7 +512,7 @@ div.markdown-content {
 
 /* Code (inline) */
 .markdown-content code {
-  background-color: rgba(15, 15, 15, 0.8) !important;
+  background-color: var(--dossier-code-bg) !important;
   color: var(--dossier-gold) !important;
   font-family: 'JetBrains Mono', monospace !important;
   border: 1px solid var(--dossier-border) !important;
@@ -501,7 +522,7 @@ div.markdown-content {
 
 /* Code blocks */
 .markdown-content pre {
-  background-color: #0a0a0a !important;
+  background-color: var(--dossier-pre-bg) !important;
   border: 1px solid var(--dossier-border) !important;
   border-radius: 2px !important;
   overflow-x: auto !important;
@@ -670,3 +691,40 @@ p.text-xl.text-gray-600 {
     font-size: 1.5rem !important;
   }
 }
+
+
+/* ============================================================
+   LIGHT / DARK THEME TOGGLE BUTTON
+   ============================================================ */
+
+.dossier-theme-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--dossier-border);
+  border-radius: 4px;
+  color: var(--dossier-text-sec);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.dossier-theme-btn:hover {
+  border-color: var(--dossier-gold);
+  color: var(--dossier-gold);
+}
+.dossier-theme-btn svg {
+  display: block;
+  pointer-events: none;
+}
+
+/* Dark mode: show moon, hide sun */
+.dossier-theme-btn .icon-moon { display: inline-flex; }
+.dossier-theme-btn .icon-sun  { display: none; }
+
+/* Light mode: show sun, hide moon */
+html[data-theme="light"] .dossier-theme-btn .icon-moon { display: none; }
+html[data-theme="light"] .dossier-theme-btn .icon-sun  { display: inline-flex; }

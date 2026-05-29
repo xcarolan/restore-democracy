@@ -4,6 +4,7 @@
     {{ template "_internal/google_analytics.html" . }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>(function(){var t=localStorage.getItem('dossier-theme');if(t==='light')document.documentElement.setAttribute('data-theme','light');}());</script>
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     
     <!-- SEO Meta Tags -->
@@ -54,6 +55,10 @@
                         <a href="/articles" class="text-gray-700 hover:text-gray-900">Articles</a>
                         <a href="/categories" class="text-gray-700 hover:text-gray-900">Categories</a>
                     {{ end }}
+                    <button id="theme-toggle" class="dossier-theme-btn" onclick="dossierToggleTheme()" aria-label="Toggle light/dark theme">
+                        <span class="icon-moon"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></span>
+                        <span class="icon-sun"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></span>
+                    </button>
                     <div x-data="{ open: false }" class="relative">
                         <button @click="open = !open" class="text-gray-700 hover:text-gray-900">Search</button>
                         <div x-show="open" @click.away="open = false" class="absolute right-0 mt-2 w-64 bg-white rounded-md shadow-lg">
@@ -76,5 +81,17 @@
             <p class="text-center">&copy; {{ now.Format "2006" }} {{ .Site.Title }}. All rights reserved.</p>
         </div>
     </footer>
+    <script>
+    function dossierToggleTheme() {
+        var next = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        if (next === 'dark') {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.removeItem('dossier-theme');
+        } else {
+            document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('dossier-theme', 'light');
+        }
+    }
+    </script>
 </body>
 </html>
