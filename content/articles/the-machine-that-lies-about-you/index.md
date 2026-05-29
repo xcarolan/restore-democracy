@@ -1,5 +1,5 @@
 ---
-title: "The Machine That Lies About You"
+title: "The Machine That Lies to You"
 date: 2026-05-29T00:00:00Z
 type: "articles"
 draft: false
